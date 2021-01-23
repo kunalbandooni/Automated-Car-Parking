@@ -5,6 +5,7 @@ ___
 - This project just needs a power supply through a simple USB to B-type along with an adaptor.
 - The system makes use of Arduino Uno Board, Servo Motor and IR sensors. 
 - It provides real time working of Automated Car Parking System. 
+- As it's name says, "Automated", and hence no need for any human intervention. 
 - The project opens the entry gate when a vehicle reaches the gate automatically.
 - This project is connected in such a way that it will show a Red light at the entrance if parking is full. 
 - It will also not let gates open during entry if parking slot is full.
