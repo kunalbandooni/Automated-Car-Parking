@@ -51,6 +51,9 @@ void loop(){
         gate_entry();
         Serial.println("ENTRY");
     }
+    /*
+    COUNTER CAN BE MAINTAINED TO CHECK NO. OF CARS.
+    
     if(c1==0){
         //car1 is here
         z++;
@@ -69,6 +72,7 @@ void loop(){
     }
     else if(c3==1)
         z--;
+    */
     if(gate_ex==0&&!(c1==0&&c2==0&&c3==0)){
         gate_exit();
         Serial.println("EXIT");
